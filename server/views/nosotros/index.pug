@@ -1,0 +1,26 @@
+extends ../layout/index
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagen de nosotros")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Duis rhoncus eros faucibus nunc mollis pulvinar. Aenean elit quam, facilisis et accumsan id, convallis quis urna. Proin porttitor vitae lacus quis vulputate.
+                p Duis mollis nec quam eget maximus. Nam volutpat at augue eget tristique. Mauris molestie dui nec diam luctus, varius commodo diam euismod. Etiam sapien urna, volutpat id sem vitae, rhoncus ornare nisl. Quisque dui augue, tristique id ultricies eu, aliquet in turpis.
+                p Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sem ipsum, tempus ac turpis vitae, aliquet tristique massa. Suspendisse purus dui,
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p cursus eget augue eget, tincidunt volutpat lacus. Aliquam dapibus condimentum ante a faucibus.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos
+                    p cursus eget augue eget, tincidunt volutpat lacus. Aliquam dapibus condimentum ante a faucibus.
+                .col-md-4
+                    img(src="img/icono_precios.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejor precio
+                    p cursus eget augue eget, tincidunt volutpat lacus. Aliquam dapibus condimentum ante a faucibus.
